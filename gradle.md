@@ -22,7 +22,7 @@ Groovy是个灵活的动态脚本语言，基于JVM虚拟机的一种动态语�
 
 # 2. Android Gradle脚本
 一个Android Studio和Gradle的项目目录如下：
-![Android Studio项目Gradle](http://image.huawei.com/tiny-lts/v1/images/096a5262a60ff67d226a_399x508.png@900-0-90-f.png)
+![Android Studio项目Gradle]()
 我们先来看看Android Gradle项目中那些涉及到gradle的文件分别是什么意思。
 ## 2.1 Gradle wrapper
 ```xml
@@ -34,7 +34,7 @@ Groovy是个灵活的动态脚本语言，基于JVM虚拟机的一种动态语�
 |--gradlew.bat
 ```
 wrapper顾名思义是对Gradle的一层包装，上面目录中`gradlew`和`gradlew.bat`分别是Linux和Windows下的可执行脚本，`gradle-wrapper.jar`是具体业务逻辑实现的jar包，`gradlew`最终还是使用Java执行的这个jar包来执行相关`Gradle`操作，`gradle-wrapper.properties`是配置文件，用于配置使用哪个版本的Gradle，其包含的配置文件如下图所示：
-![gradle-wrapper.properties](http://image.huawei.com/tiny-lts/v1/images/abab7262a61127ea6239_993x271.jpg@900-0-90-f.jpg)
+![gradle-wrapper.properties]()
 配置举例：
 ```java
 #Wed Jun 19 10:09:08 GMT+08:00 2019
